@@ -1,0 +1,179 @@
+/* navbar styling*/
+.navbar {
+    border: none;
+    border-radius: 0;
+    background: none;
+    font-color: white;
+}
+nav { 
+    background : none;
+    float:center;
+    font-size: 1.5em;
+    text-align:center;
+    width:110%;
+    
+
+  }
+
+
+/* Individual styles for each section */
+#intro{
+	background-color: #FFD6F4;
+}
+
+#about{
+
+}
+
+#divider1{
+	
+    
+}
+
+#flavors{
+
+}
+
+#divider2{
+	
+}
+
+#contact{
+
+}
+
+#last{
+
+}
+
+/* Different background styles */
+.stretch{
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+
+.middle{
+	display: block;
+	margin: auto;
+}
+
+.mid{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.social{
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.icons{
+display:inline-block;
+}
+#intro .middle{
+	width: 640px !important;
+    height:auto;
+    display:block;
+	margin-top: -140px;
+	margin-bottom: -50px;
+
+}
+h1{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+p{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	line-height: 200%;
+}
+
+h3{
+	text-align: center;
+	margin-top: -60px;
+	font-size: 2em; 
+}
+.inner {
+  padding: 30px;
+}
+.cover {
+  padding: 0 20px;
+}
+/* margins around each cone */
+.cone {
+	margin-bottom: 100px;
+	position: relative;
+}
+
+
+/* Styling the buttons */
+.btn-sample { 
+  color: #FFFFFF; 
+  background-color: #AFF5FF; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-sample:hover, 
+.btn-sample:focus, 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  color: #FFFFFF; 
+  background-color: #3FE1FA; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-sample:active, 
+.btn-sample.active, 
+.open .dropdown-toggle.btn-sample { 
+  background-image: none; 
+} 
+ 
+.btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #AFF5FF; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-sample .badge { 
+  color: #AFF5FF; 
+  background-color: #FFFFFF; 
+}
+
+.btn.sharp {
+  border-radius:0;
+}
+
+@media only screen and (max-width: 767px) {
+
+   h1 {
+      font-size: 3em;
+   }
+
+   h2 {
+      font-size: 2em;
+   }
+   h3 {
+   	  font-size: 1em;
+   }
+}

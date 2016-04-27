@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inside Scoop</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css"></link>
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">THE ICE CREAM SHOP</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#flavors">FLAVORS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#sign-up">SIGN UP | LOGIN</a></li>
+                    <li><a href="#cart">CART | 2</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Intro Page -->
+    <div class="container-fluid stretch" id='intro'>
+
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8"><img class='stretch animated tada' src="assets/jpeg/main.png" alt="Ice Cream" id='main'></div>
+            <div class="col-md-2"></div>
+        </div>
+
+    </div>
+
+    <!-- About Page -->
+    <div class="container-fluid" id='about'>
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h1  class='animated bounce' data-depth="0.50"><strong>ABOUT</strong></h1>
+            <p data-depth="0.50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="container-fluid" id='about'>
+            <div class="col-md-5"></div>
+            <div class="col-md-2">
+                <img class='mid' data-depth="0.50" src="assets/jpeg/about_ice_cream_cup.png">
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+
+
+        <!-- Divider Page #1-->
+        <div class="row" id='divider1' data-depth='1'>
+            <img class='stretch' src="assets/jpeg/ice-cream.png">
+        </div>
+
+        <!-- Flavors Page -->
+        <div class="row" id='flavors'>
+            <div class='container-fluid'>
+            	<h1>FLAVORS</h1>
+            <div class="row">
+                <div class="col-md-3 col-xs-3 cone" id='raspberry'><img class='middle' src="assets/jpeg/raspberry_cone.png"><h3>RASPBERRY</h3></div>
+                <div class="col-md-3 col-xs-3 cone" id='lemon'><img class='middle' src="assets/jpeg/lemon_cone.png"><h3>LEMON</h3></div>
+                <div class="col-md-3 col-xs-3 cone" id='lime'><img class='middle' src="assets/jpeg/lime_cone.png"><h3>LIME</h3></div>
+                <div class="col-md-3 col-xs-3 cone" id='strawberry'><img class='middle' src="assets/jpeg/strawberry_cone.png"><h3>STRAWBERRY</h3></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-3 cone" id='apple'><img class='middle' src="assets/jpeg/apple_cone.png"><h3>APPLE</h3></div>
+                <div class="col-md-3 col-xs-3 cone" id='mint'><img class='middle' src="assets/jpeg/mint_cone.png"><h3>MINT</h3></div>
+                <div class="col-md-3 col-xs-3 cone" id='vanilla'><img class='middle' src="assets/jpeg/vanilla_cone.png"><h3>VANILLA</h3></div>
+                <div class="col-md-3 col-xs-3 cone" id='blueberry'><img class='middle' src="assets/jpeg/blueberry_cone.png"><h3>BLUEBERRY</h3></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-3 cone" id='grape'><img class='middle' src="assets/jpeg/grape_cone.png"><h3>GRAPE</h3></div>
+                <div class="col-md-3 col-xs-3 cone" id='chocolate'><img class='middle' src="assets/jpeg/chocolate_cone.png"><h3>CHOCOLATE</h3></div>
+                <div class="col-md-3 col-xs-3 cone" id='peach'><img class='middle' src="assets/jpeg/peach_cone.png"><h3>PEACH</h3></div>
+                <div class="col-md-3 col-xs-3 cone" id='cherry'><img class='middle' src="assets/jpeg/cherry_cone.png"><h3>CHERRY</h3></div>
+            </div>
+            <button class='btn btn-lg sharp btn-sample mid'>LET'S TRY SOME ICE CREAM!</button>
+            </div>
+        </div>
+
+        <!-- Divider Page #2 -->
+        <div class="row" id='divider2'>
+            <img class='stretch' src="assets/jpeg/divider2.png">
+        </div>
+        <!-- Contact Page -->
+        <div class="container-fluid" id='contact'>
+            <h1>CONTACT</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            <p>90000, Los Angeles, 00/0 Lorem ipsum dolor sit amet, consectetur</p>
+            <p>(000) 000 0000 | (000) 000 0000</p>
+            <p>maria@theicecreamshop | maria@theicecreamchop</p>
+        </div>
+        <div class="row">
+        	<div class='social'>
+        		<div><img class='icons' src="assets/jpeg/instagram_icon.png">		<img class='icons' src="assets/jpeg/twitter_icon.png">	 <img class='icons' src="assets/jpeg/facebook_icon.png"></div>
+        	</div>
+            
+        
+            
+            
+        </div>
+        <img class='stretch' src="assets/jpeg/map.png">
+
+        <!-- Last Page -->
+        <div class="row" id='last'>
+            <img class='stretch' src="assets/jpeg/last_page.png">
+        </div>
+
+        <!-- Footer -->
+        <div class="container-fluid" id='footer'>
+        	<h2>© 2016 THE ICE CREAM SHOP</h2>
+        </div>
+
+
+
+
+
+        <!-- Javascript files -->
+        <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js'></script>
+        <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js'></script>
+        <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/parallax.min.js'></script>
+   		
+   		
+        <script type='text/javascript' src='./assets/js/app.js'></script>
+
+</body>
